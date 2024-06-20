@@ -35,6 +35,33 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""MouseMoved"",
+                    ""type"": ""PassThrough"",
+                    ""id"": ""57907712-a519-4d87-b4ed-d289e6e4a284"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Shoot"",
+                    ""type"": ""Button"",
+                    ""id"": ""d88884a3-a8c6-4d78-9808-948f5c0e67ab"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Jump"",
+                    ""type"": ""Button"",
+                    ""id"": ""54e7e349-19cb-40e9-8410-0f9b0de3c3dc"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -92,6 +119,39 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
                     ""action"": ""Movement"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""ef9c196d-8cae-48a3-9c30-1abb304e1beb"",
+                    ""path"": ""<Mouse>/position"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""KeyboardAndMouse"",
+                    ""action"": ""MouseMoved"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""b57e63a5-e5fc-4d21-a258-f213dd35ea2f"",
+                    ""path"": ""<Mouse>/leftButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""KeyboardAndMouse"",
+                    ""action"": ""Shoot"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9044113d-fda0-4b7f-9355-6612d7b639e3"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""KeyboardAndMouse"",
+                    ""action"": ""Jump"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -118,6 +178,9 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
         // Default
         m_Default = asset.FindActionMap("Default", throwIfNotFound: true);
         m_Default_Movement = m_Default.FindAction("Movement", throwIfNotFound: true);
+        m_Default_MouseMoved = m_Default.FindAction("MouseMoved", throwIfNotFound: true);
+        m_Default_Shoot = m_Default.FindAction("Shoot", throwIfNotFound: true);
+        m_Default_Jump = m_Default.FindAction("Jump", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -180,11 +243,17 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
     private readonly InputActionMap m_Default;
     private List<IDefaultActions> m_DefaultActionsCallbackInterfaces = new List<IDefaultActions>();
     private readonly InputAction m_Default_Movement;
+    private readonly InputAction m_Default_MouseMoved;
+    private readonly InputAction m_Default_Shoot;
+    private readonly InputAction m_Default_Jump;
     public struct DefaultActions
     {
         private @InputActions m_Wrapper;
         public DefaultActions(@InputActions wrapper) { m_Wrapper = wrapper; }
         public InputAction @Movement => m_Wrapper.m_Default_Movement;
+        public InputAction @MouseMoved => m_Wrapper.m_Default_MouseMoved;
+        public InputAction @Shoot => m_Wrapper.m_Default_Shoot;
+        public InputAction @Jump => m_Wrapper.m_Default_Jump;
         public InputActionMap Get() { return m_Wrapper.m_Default; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -197,6 +266,15 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
             @Movement.started += instance.OnMovement;
             @Movement.performed += instance.OnMovement;
             @Movement.canceled += instance.OnMovement;
+            @MouseMoved.started += instance.OnMouseMoved;
+            @MouseMoved.performed += instance.OnMouseMoved;
+            @MouseMoved.canceled += instance.OnMouseMoved;
+            @Shoot.started += instance.OnShoot;
+            @Shoot.performed += instance.OnShoot;
+            @Shoot.canceled += instance.OnShoot;
+            @Jump.started += instance.OnJump;
+            @Jump.performed += instance.OnJump;
+            @Jump.canceled += instance.OnJump;
         }
 
         private void UnregisterCallbacks(IDefaultActions instance)
@@ -204,6 +282,15 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
             @Movement.started -= instance.OnMovement;
             @Movement.performed -= instance.OnMovement;
             @Movement.canceled -= instance.OnMovement;
+            @MouseMoved.started -= instance.OnMouseMoved;
+            @MouseMoved.performed -= instance.OnMouseMoved;
+            @MouseMoved.canceled -= instance.OnMouseMoved;
+            @Shoot.started -= instance.OnShoot;
+            @Shoot.performed -= instance.OnShoot;
+            @Shoot.canceled -= instance.OnShoot;
+            @Jump.started -= instance.OnJump;
+            @Jump.performed -= instance.OnJump;
+            @Jump.canceled -= instance.OnJump;
         }
 
         public void RemoveCallbacks(IDefaultActions instance)
@@ -233,5 +320,8 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
     public interface IDefaultActions
     {
         void OnMovement(InputAction.CallbackContext context);
+        void OnMouseMoved(InputAction.CallbackContext context);
+        void OnShoot(InputAction.CallbackContext context);
+        void OnJump(InputAction.CallbackContext context);
     }
 }
