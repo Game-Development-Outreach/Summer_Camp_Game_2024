@@ -21,6 +21,7 @@ public class PlayerMovement : AMovement
     private float m_gravityPull;
     private GameObject m_wallLastFrame;
     private bool m_allowedToWallJump;
+    private Vector2 m_wallNormal;
 
     public override void Move(Vector2 moveDirection)
     {
@@ -36,6 +37,7 @@ public class PlayerMovement : AMovement
             {
                 isOnWall = true;
                 currentWall = wallHit.transform.gameObject;
+                m_wallNormal = wallHit.normal;
                 break;
             }
         }
@@ -54,8 +56,10 @@ public class PlayerMovement : AMovement
 
         if (!m_allowedToWallJump)
             return;
-        if (isGrounded || isOnWall)
+        if (isGrounded)
             rigidBody.AddForce(Vector2.up * moveDirection.y * jumpHeight, ForceMode2D.Force);
+        else if(isOnWall)
+            rigidBody.AddForce((Vector2.up + m_wallNormal).normalized * moveDirection.y * jumpHeight, ForceMode2D.Force);
 
         m_wallLastFrame = currentWall;
 
