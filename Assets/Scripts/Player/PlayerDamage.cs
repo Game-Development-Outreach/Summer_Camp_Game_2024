@@ -6,6 +6,7 @@ using UnityEngine.Events;
 public class PlayerDamage : ADamage
 {
     [Header("Configuration")]
+    [SerializeField] public float m_currentHealth;
     [SerializeField] private float maxHealth;
     [SerializeField] private float knockbackForce;
     [SerializeField] private Rigidbody2D rigidBody;
@@ -15,7 +16,7 @@ public class PlayerDamage : ADamage
 
     [Header("Events")]
     [SerializeField] private UnityEvent<float> onHit;
-    [SerializeField] private UnityEvent onDeath;
+    [SerializeField] public UnityEvent onDeath;
 
     private float m_lastHitTime;
 
@@ -37,6 +38,7 @@ public class PlayerDamage : ADamage
 
         if (m_currentHealth <= 0)
             Die();
+        m_currentHealth = maxHealth;
     }
 
     private void Die()

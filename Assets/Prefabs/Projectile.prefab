@@ -166,3 +166,4 @@ MonoBehaviour:
   reflectBulletSpeed: 5
   despawnTime: 10
   reflectiveTag: Reflective
+  breakTag: breakTag

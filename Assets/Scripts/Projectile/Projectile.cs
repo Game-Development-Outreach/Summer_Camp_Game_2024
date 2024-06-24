@@ -9,6 +9,7 @@ public class Projectile : MonoBehaviour
     [SerializeField] private float reflectBulletSpeed;
     [SerializeField] private float despawnTime;
     [SerializeField] private string reflectiveTag;
+    [SerializeField] private string breakTag;
 
     private PlayerShooting m_attack;
     private Vector3 m_travelDirection;
@@ -36,6 +37,10 @@ public class Projectile : MonoBehaviour
             rigidbody.AddForce(reflect * reflectBulletSpeed, ForceMode2D.Impulse);
             m_travelDirection = reflect.normalized;
             return;
+        }
+        if (collision.gameObject.tag == breakTag)
+        {
+            collision.gameObject.SetActive(false);
         }
 
         Destroy(gameObject);
