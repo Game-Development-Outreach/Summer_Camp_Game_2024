@@ -6,7 +6,6 @@ using UnityEngine.Events;
 public class PlayerDamage : ADamage
 {
     [Header("Configuration")]
-    [SerializeField] public float m_currentHealth;
     [SerializeField] private float maxHealth;
     [SerializeField] private float knockbackForce;
     [SerializeField] private Rigidbody2D rigidBody;
