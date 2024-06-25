@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1447190651207798150}
   - component: {fileID: 344351954070211732}
   - component: {fileID: 2529368811345681296}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Projectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -135,9 +135,9 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0.1
-  m_AngularDrag: 0.05
-  m_GravityScale: 0.1
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -163,7 +163,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rigidbody: {fileID: 344351954070211732}
   bulletSpeed: 10
-  reflectBulletSpeed: 5
+  reflectBulletSpeed: 10
   despawnTime: 10
   reflectiveTag: Reflective
   breakTag: breakTag

@@ -33,8 +33,8 @@ public class Projectile : MonoBehaviour
 
         if (collision.gameObject.tag == reflectiveTag)
         {
-            Vector3 reflect = Vector3.Reflect(m_travelDirection, collision.GetContact(0).normal);
-            rigidbody.AddForce(reflect * reflectBulletSpeed, ForceMode2D.Impulse);
+            Vector3 reflect = Vector3.Reflect(m_travelDirection, collision.GetContact(0).normal).normalized;
+            rigidbody.velocity = reflect * reflectBulletSpeed;
             m_travelDirection = reflect.normalized;
             return;
         }
