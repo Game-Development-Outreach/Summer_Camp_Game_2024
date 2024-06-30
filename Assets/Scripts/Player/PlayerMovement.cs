@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayerMovement : AMovement
 {
@@ -18,10 +19,18 @@ public class PlayerMovement : AMovement
 
     [SerializeField] private Rigidbody2D rigidBody;
 
+    public static UnityEvent<Vector3> onMove;
+
     private float m_gravityPull;
     private GameObject m_wallLastFrame;
     private bool m_allowedToWallJump;
     private Vector2 m_wallNormal;
+
+    private void Awake()
+    {
+        //Static events need to be created apparently
+        onMove = new UnityEvent<Vector3>();
+    }
 
     public override void Move(Vector2 moveDirection)
     {
@@ -50,6 +59,8 @@ public class PlayerMovement : AMovement
 
         rigidBody.AddForce((Vector2.right * moveDirection.x * moveSpeed + -Vector2.up * gravityModifier) * Time.deltaTime);
         m_gravityPull = ((isGrounded || isOnWall) && m_allowedToWallJump) ? 0 : m_gravityPull + Time.deltaTime * gravityStrength;
+
+        onMove.Invoke(moveDirection);
 
         if (moveDirection.y == 0)
             return;

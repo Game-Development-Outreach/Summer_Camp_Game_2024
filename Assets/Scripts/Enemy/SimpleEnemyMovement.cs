@@ -12,7 +12,6 @@ public class SimpleEnemyMovement : MonoBehaviour
     private Transform target;  // Current target point
     private bool shouldReset = false;  // Flag to control reset behavior
     private bool isResetting = false;  // Flag to track resetting process
-    private PlayerDamage playerDamage;
 
     void Start()
     {
@@ -22,14 +21,8 @@ public class SimpleEnemyMovement : MonoBehaviour
         // Set the initial target to point A
         target = pointA;
 
-        playerDamage = FindObjectOfType<PlayerDamage>();
-        if (playerDamage == null)
-        {
-            Debug.LogError("PlayerDamage script not found in the scene.");
-        }
-
         // Subscribe to player death event
-        playerDamage.onDeath.AddListener(Death);
+        PlayerDamage.onDeath.AddListener(Death);
     }
 
     void Update()

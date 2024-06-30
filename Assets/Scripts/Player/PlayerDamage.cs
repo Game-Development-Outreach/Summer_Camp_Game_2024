@@ -15,14 +15,15 @@ public class PlayerDamage : ADamage
 
     [Header("Events")]
     [SerializeField] private UnityEvent<float> onHit;
-    [SerializeField] public UnityEvent onDeath;
+    public static UnityEvent onDeath;
 
     private float m_lastHitTime;
 
-    private void Start()
+    private void Awake()
     {
         m_lastHitTime = Time.time;
         m_currentHealth = maxHealth;
+        onDeath = new UnityEvent();
     }
 
     public override void TakeDamage(float damage, Vector3 damageSource)
@@ -42,6 +43,7 @@ public class PlayerDamage : ADamage
 
     private void Die()
     {
+        m_lastHitTime = Time.time - iFrames;
         onDeath.Invoke();
     }
 }

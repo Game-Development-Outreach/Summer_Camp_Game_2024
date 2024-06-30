@@ -9,6 +9,7 @@ public class SpeedrunClock : MonoBehaviour
     [SerializeField] private TextMeshProUGUI secondsField;
 
     private bool m_ticking;
+
     public void StartClock() => m_ticking = true;
     public void StopClock() => m_ticking = false;
 

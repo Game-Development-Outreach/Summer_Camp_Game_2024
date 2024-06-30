@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Test : MonoBehaviour
+public class DamageOnTouch : MonoBehaviour
 {
     [SerializeField] private float damage;
     [SerializeField] private Transform enemy;

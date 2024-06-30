@@ -5,12 +5,15 @@ using UnityEngine.Events;
 
 public class PlayerShooting : AAttack
 {
-    public UnityEvent<GameObject> onHit;
-    [SerializeField] private UnityEvent onShoot;
+    [Header("Configuration")]
     [SerializeField] private Projectile projectilePrefab;
     [SerializeField] private float timeBetweenShots;
     [SerializeField] private float spawnDistance;
     [SerializeField] private Transform player;
+
+    [Header("Events")]
+    public UnityEvent<GameObject> onHit;
+    [SerializeField] private UnityEvent onShoot;
 
     private float m_lastShootTime;
 
