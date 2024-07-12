@@ -167,3 +167,4 @@ MonoBehaviour:
   despawnTime: 10
   reflectiveTag: Reflective
   breakTag: breakTag
+  dooropenTag: dooropenTag

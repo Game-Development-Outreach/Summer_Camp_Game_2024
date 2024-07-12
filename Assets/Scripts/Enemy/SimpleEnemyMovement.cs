@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+// Relatively simple enemy movement that moves an object between two points, I will maybe later edit this to be an array rather then two points
 public class SimpleEnemyMovement : MonoBehaviour
 {
     public Transform pointA;  // Transform of the first point

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class Projectile : MonoBehaviour
 {
@@ -10,9 +11,11 @@ public class Projectile : MonoBehaviour
     [SerializeField] private float despawnTime;
     [SerializeField] private string reflectiveTag;
     [SerializeField] private string breakTag;
+    [SerializeField] public string dooropenTag;
 
     private PlayerShooting m_attack;
     private Vector3 m_travelDirection;
+    public static event Action<GameObject> OnCollisionDetected;
 
     public void Init(Vector3 shootDirection, PlayerShooting attack)
     {
@@ -41,6 +44,10 @@ public class Projectile : MonoBehaviour
         if (collision.gameObject.tag == breakTag)
         {
             collision.gameObject.SetActive(false);
+        }
+        if (collision.gameObject.tag == dooropenTag)
+        {
+            OnCollisionDetected?.Invoke(collision.collider.gameObject);
         }
 
         Destroy(gameObject);
