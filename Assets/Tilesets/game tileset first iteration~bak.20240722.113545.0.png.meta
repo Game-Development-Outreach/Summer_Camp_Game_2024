@@ -1,0 +1,1403 @@
+fileFormatVersion: 2
+guid: b7e79a990476c4f4aac17c9f09a88066
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 900
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_0
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 5116
+        width: 913
+        height: 914
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842835c74bfb79b42a3eb0682dfe6a81
+      internalID: -1035424092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_1
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 5118
+        width: 914
+        height: 912
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad1beeefe4a1214e881c47ae559b644
+      internalID: 842402878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_2
+      rect:
+        serializedVersion: 2
+        x: 2375
+        y: 5116
+        width: 914
+        height: 913
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2771d81edc8c84a41bd848e8d9cbfb6c
+      internalID: -1103528705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_3
+      rect:
+        serializedVersion: 2
+        x: 3427
+        y: 5108
+        width: 922
+        height: 921
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46342c5a9f8d21b4fb966e400ada9206
+      internalID: 71906846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_4
+      rect:
+        serializedVersion: 2
+        x: 4554
+        y: 4637
+        width: 914
+        height: 906
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd3dfc0bfebefd4594cdb589998365f
+      internalID: 2000271334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_5
+      rect:
+        serializedVersion: 2
+        x: 5701
+        y: 4634
+        width: 912
+        height: 909
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749f33ee8cd8a4a408559c5c448758c7
+      internalID: -490034289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_6
+      rect:
+        serializedVersion: 2
+        x: 6844
+        y: 4634
+        width: 914
+        height: 909
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c899ffeb001b542b42d2d4c139394b
+      internalID: -1783073772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_7
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 4088
+        width: 913
+        height: 913
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c75e627e531ad489380fc297d38dac
+      internalID: -209870320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_8
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 4088
+        width: 914
+        height: 913
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9405486e88521404d89d885ab47cd038
+      internalID: -1726954801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_9
+      rect:
+        serializedVersion: 2
+        x: 2375
+        y: 4088
+        width: 914
+        height: 913
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116490b05b3d9854dbc5085e6125141e
+      internalID: 795129191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_10
+      rect:
+        serializedVersion: 2
+        x: 3581
+        y: 4115
+        width: 609
+        height: 914
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86129ad12ea3c84692504641a6f8e23
+      internalID: 260288605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_11
+      rect:
+        serializedVersion: 2
+        x: 4554
+        y: 3669
+        width: 914
+        height: 909
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99db167436b8db4abb31f7e1bf40732
+      internalID: 1729943787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_12
+      rect:
+        serializedVersion: 2
+        x: 5701
+        y: 3669
+        width: 910
+        height: 909
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c38e2eff2b2d24fb2c4e37665ec09b
+      internalID: 2049351536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_13
+      rect:
+        serializedVersion: 2
+        x: 6844
+        y: 3672
+        width: 913
+        height: 910
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069eb92e4901b374cab561731733c38a
+      internalID: 544384473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_14
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 3063
+        width: 912
+        height: 913
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87699dfc609fe2648b8d8dfec6f7b3f3
+      internalID: 919173194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_15
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 3281
+        width: 914
+        height: 696
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5252de7e6fe2460469b245d78ba907e6
+      internalID: -460055391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_16
+      rect:
+        serializedVersion: 2
+        x: 2375
+        y: 3067
+        width: 910
+        height: 906
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8130595762c28a4bbbc5cb415d17984
+      internalID: -888547598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_17
+      rect:
+        serializedVersion: 2
+        x: 3415
+        y: 3123
+        width: 914
+        height: 913
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00da6dbd0edc06c4ab7bf92be0272eb1
+      internalID: 423876636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_18
+      rect:
+        serializedVersion: 2
+        x: 4554
+        y: 2667
+        width: 900
+        height: 914
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509927fe8626ee14aa90213b61ef2e68
+      internalID: -1657469147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_19
+      rect:
+        serializedVersion: 2
+        x: 5701
+        y: 2669
+        width: 918
+        height: 920
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d61b6c37601294cb9516c59d12feda
+      internalID: -27700361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_20
+      rect:
+        serializedVersion: 2
+        x: 6844
+        y: 2667
+        width: 912
+        height: 922
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32523f2cfaf9414693212ca3951709f
+      internalID: -1951470553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_21
+      rect:
+        serializedVersion: 2
+        x: 2265
+        y: 3063
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ffe1c58726cf1446aa92b6f6a9ca022
+      internalID: 1558003778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_22
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 2015
+        width: 914
+        height: 918
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5521e7bf2e6badf4f8c616e841e49360
+      internalID: 1381354412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_23
+      rect:
+        serializedVersion: 2
+        x: 2078
+        y: 1857
+        width: 914
+        height: 914
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41563f563f8ab14d999515b3e68e115
+      internalID: -2059531046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_24
+      rect:
+        serializedVersion: 2
+        x: 3174
+        y: 1865
+        width: 712
+        height: 708
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6250530ff12f44ca15f9e5250bd845
+      internalID: -1317830687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_25
+      rect:
+        serializedVersion: 2
+        x: 4764
+        y: 1798
+        width: 514
+        height: 771
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6b7f4432181c3409d94752f9ece328
+      internalID: -955976257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_26
+      rect:
+        serializedVersion: 2
+        x: 5623
+        y: 2456
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d1eb85bbd35cf40a4825e3c5cc7224
+      internalID: -1410606306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_27
+      rect:
+        serializedVersion: 2
+        x: 6150
+        y: 2480
+        width: 91
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a1254fff8d70d44836784a0dfa68bc
+      internalID: 2042297282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_28
+      rect:
+        serializedVersion: 2
+        x: 4240
+        y: 2199
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff5b947338519a44b73c092c25b9ccf
+      internalID: -1374844837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_29
+      rect:
+        serializedVersion: 2
+        x: 6154
+        y: 2144
+        width: 16
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1477d84e5b7007a49a7d986a12ab8687
+      internalID: -267888292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_30
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1030
+        width: 916
+        height: 914
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b56b1d79b0b35479afa6d1b003e9df
+      internalID: -1456940294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_31
+      rect:
+        serializedVersion: 2
+        x: 6221
+        y: 1799
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dddd28d2e516d84eac8612ccde1e968
+      internalID: -580885171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_32
+      rect:
+        serializedVersion: 2
+        x: 6229
+        y: 1772
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3b6c11a13d6654ea7596520d418ee7
+      internalID: -275169690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_33
+      rect:
+        serializedVersion: 2
+        x: 2078
+        y: 852
+        width: 914
+        height: 914
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50ed7efe184dcf418e5c57ada0f6242
+      internalID: -370789089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_34
+      rect:
+        serializedVersion: 2
+        x: 4637
+        y: 947
+        width: 768
+        height: 771
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c70b1a335a4be469de47514562dafd
+      internalID: 1098280432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_35
+      rect:
+        serializedVersion: 2
+        x: 6218
+        y: 1669
+        width: 47
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fceca856733464478f4a1fde437d69f
+      internalID: 1870990011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_36
+      rect:
+        serializedVersion: 2
+        x: 4117
+        y: 1622
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b6c09ee6c9c494ab7642584e648a5c
+      internalID: 523101064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_37
+      rect:
+        serializedVersion: 2
+        x: 5628
+        y: 1578
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c8b6395cfdc3145816657902b03dbf
+      internalID: -894957376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_38
+      rect:
+        serializedVersion: 2
+        x: 5429
+        y: 1452
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee83885366ee2b149a3303b7416a620d
+      internalID: 216998865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_39
+      rect:
+        serializedVersion: 2
+        x: 5592
+        y: 1479
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9db4b1242a95943aa117975fe9b0e7
+      internalID: 605186284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_40
+      rect:
+        serializedVersion: 2
+        x: 3174
+        y: 1030
+        width: 704
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2ca7d8a8e3fca4d919771f1cf39a66
+      internalID: -1278793730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_41
+      rect:
+        serializedVersion: 2
+        x: 6917
+        y: 1357
+        width: 20
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02ee9ab722a0bc42bb0726f6002e19e
+      internalID: 1557841445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_42
+      rect:
+        serializedVersion: 2
+        x: 6245
+        y: 1262
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef04314729160ee458e9d1260a4940df
+      internalID: -96345139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_43
+      rect:
+        serializedVersion: 2
+        x: 6162
+        y: 1226
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e7e317feea0e948b39e5d469fd14a9
+      internalID: 1013576868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_44
+      rect:
+        serializedVersion: 2
+        x: 5466
+        y: 1155
+        width: 25
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4dccb0631e950f408302ec2f2af7e57
+      internalID: 340998163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_45
+      rect:
+        serializedVersion: 2
+        x: 5739
+        y: 1151
+        width: 67
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf86b2a0bf0ee724aa603a7223c28e62
+      internalID: -664511500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_46
+      rect:
+        serializedVersion: 2
+        x: 5612
+        y: 1130
+        width: 95
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3ac0b751554da44bd9b4fb01537fc5
+      internalID: -965312980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_47
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 1068
+        width: 21
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbeb1e7153b27694582d1eb11714b61a
+      internalID: -137653314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_48
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 263
+        width: 917
+        height: 696
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c447ed51f17b2f458037ca02f128898
+      internalID: -1133451953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_49
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 910
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d69682f5eb71834898f26717fbd67ef
+      internalID: -715314961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_50
+      rect:
+        serializedVersion: 2
+        x: 3166
+        y: 295
+        width: 712
+        height: 712
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7527a0a30f4262d4ab352486d1c7d4fa
+      internalID: -937419076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_51
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 906
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caecb0a35af77534dbff529e3a68e6a1
+      internalID: -148738373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_52
+      rect:
+        serializedVersion: 2
+        x: 2551
+        y: 712
+        width: 51
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197bef0332720584d9814fc3a4f13172
+      internalID: 54970613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_53
+      rect:
+        serializedVersion: 2
+        x: 2547
+        y: 704
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3bc11abdd38d2e4296be097f2beb016
+      internalID: 1499017857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_54
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 700
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07700237330e29140a1d25d1a15e8d04
+      internalID: -1155117503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_55
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 700
+        width: 15
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a187136956bcdc4429eed167929263d3
+      internalID: -1541211220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_56
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 99
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3baad1cc0076ca4439353281197b4e07
+      internalID: 507971017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game tileset first iteration~bak.20240722.113545.0_57
+      rect:
+        serializedVersion: 2
+        x: 2078
+        y: 42
+        width: 918
+        height: 502
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2674ecbbfb20445be68798197f4a4c
+      internalID: 1220306862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      game tileset first iteration~bak.20240722.113545.0_0: -1035424092
+      game tileset first iteration~bak.20240722.113545.0_1: 842402878
+      game tileset first iteration~bak.20240722.113545.0_10: 260288605
+      game tileset first iteration~bak.20240722.113545.0_11: 1729943787
+      game tileset first iteration~bak.20240722.113545.0_12: 2049351536
+      game tileset first iteration~bak.20240722.113545.0_13: 544384473
+      game tileset first iteration~bak.20240722.113545.0_14: 919173194
+      game tileset first iteration~bak.20240722.113545.0_15: -460055391
+      game tileset first iteration~bak.20240722.113545.0_16: -888547598
+      game tileset first iteration~bak.20240722.113545.0_17: 423876636
+      game tileset first iteration~bak.20240722.113545.0_18: -1657469147
+      game tileset first iteration~bak.20240722.113545.0_19: -27700361
+      game tileset first iteration~bak.20240722.113545.0_2: -1103528705
+      game tileset first iteration~bak.20240722.113545.0_20: -1951470553
+      game tileset first iteration~bak.20240722.113545.0_21: 1558003778
+      game tileset first iteration~bak.20240722.113545.0_22: 1381354412
+      game tileset first iteration~bak.20240722.113545.0_23: -2059531046
+      game tileset first iteration~bak.20240722.113545.0_24: -1317830687
+      game tileset first iteration~bak.20240722.113545.0_25: -955976257
+      game tileset first iteration~bak.20240722.113545.0_26: -1410606306
+      game tileset first iteration~bak.20240722.113545.0_27: 2042297282
+      game tileset first iteration~bak.20240722.113545.0_28: -1374844837
+      game tileset first iteration~bak.20240722.113545.0_29: -267888292
+      game tileset first iteration~bak.20240722.113545.0_3: 71906846
+      game tileset first iteration~bak.20240722.113545.0_30: -1456940294
+      game tileset first iteration~bak.20240722.113545.0_31: -580885171
+      game tileset first iteration~bak.20240722.113545.0_32: -275169690
+      game tileset first iteration~bak.20240722.113545.0_33: -370789089
+      game tileset first iteration~bak.20240722.113545.0_34: 1098280432
+      game tileset first iteration~bak.20240722.113545.0_35: 1870990011
+      game tileset first iteration~bak.20240722.113545.0_36: 523101064
+      game tileset first iteration~bak.20240722.113545.0_37: -894957376
+      game tileset first iteration~bak.20240722.113545.0_38: 216998865
+      game tileset first iteration~bak.20240722.113545.0_39: 605186284
+      game tileset first iteration~bak.20240722.113545.0_4: 2000271334
+      game tileset first iteration~bak.20240722.113545.0_40: -1278793730
+      game tileset first iteration~bak.20240722.113545.0_41: 1557841445
+      game tileset first iteration~bak.20240722.113545.0_42: -96345139
+      game tileset first iteration~bak.20240722.113545.0_43: 1013576868
+      game tileset first iteration~bak.20240722.113545.0_44: 340998163
+      game tileset first iteration~bak.20240722.113545.0_45: -664511500
+      game tileset first iteration~bak.20240722.113545.0_46: -965312980
+      game tileset first iteration~bak.20240722.113545.0_47: -137653314
+      game tileset first iteration~bak.20240722.113545.0_48: -1133451953
+      game tileset first iteration~bak.20240722.113545.0_49: -715314961
+      game tileset first iteration~bak.20240722.113545.0_5: -490034289
+      game tileset first iteration~bak.20240722.113545.0_50: -937419076
+      game tileset first iteration~bak.20240722.113545.0_51: -148738373
+      game tileset first iteration~bak.20240722.113545.0_52: 54970613
+      game tileset first iteration~bak.20240722.113545.0_53: 1499017857
+      game tileset first iteration~bak.20240722.113545.0_54: -1155117503
+      game tileset first iteration~bak.20240722.113545.0_55: -1541211220
+      game tileset first iteration~bak.20240722.113545.0_56: 507971017
+      game tileset first iteration~bak.20240722.113545.0_57: 1220306862
+      game tileset first iteration~bak.20240722.113545.0_6: -1783073772
+      game tileset first iteration~bak.20240722.113545.0_7: -209870320
+      game tileset first iteration~bak.20240722.113545.0_8: -1726954801
+      game tileset first iteration~bak.20240722.113545.0_9: 795129191
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

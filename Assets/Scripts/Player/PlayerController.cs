@@ -12,6 +12,9 @@ public class PlayerController : MonoBehaviour
     private InputActions m_inputActions;
     private Vector2 m_moveDirection;
     private Vector3 m_mouseWorldPosition;
+    public Animator animator;
+    public Rigidbody2D rb;
+    public SpriteRenderer spriteRenderer;
 
     private void Awake()
     {
@@ -45,6 +48,27 @@ public class PlayerController : MonoBehaviour
     {
         movement.Move(m_moveDirection);
         m_moveDirection = new Vector2(m_moveDirection.x, 0);
+
+        float speed = rb.velocity.magnitude;
+        if (speed > 0.05f)
+        {
+            animator.SetBool("IsWalking", true);
+        }
+        else
+        {
+            animator.SetBool("IsWalking", false);
+        }
+
+        if (m_moveDirection.x < 0)
+        {
+            // Moving left, rotate sprite to face left
+            spriteRenderer.flipX = true;
+        }
+        else if (m_moveDirection.x > 0)
+        {
+            // Moving right, rotate sprite to face right
+            spriteRenderer.flipX = false;
+        }
     }
 
     private void OnDisable() => m_inputActions.Disable();
