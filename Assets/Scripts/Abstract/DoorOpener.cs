@@ -5,7 +5,7 @@ using UnityEngine;
 public class DoorOpener : MonoBehaviour
 {
     public GameObject objectToDisable;
-    public Projectile ProjectileTag;
+    public GameObject specificDisabler;
 
     void OnEnable()
     {
@@ -20,7 +20,7 @@ public class DoorOpener : MonoBehaviour
     void HandleCollision(GameObject disabler)
     {
         // Check if the disabler object is the one we want
-        if (disabler.tag == ProjectileTag.dooropenTag)
+        if (disabler == specificDisabler)
         {
             // Disable the target object
             objectToDisable.SetActive(false);

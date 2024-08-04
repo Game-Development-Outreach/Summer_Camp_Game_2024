@@ -162,9 +162,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidbody: {fileID: 344351954070211732}
-  bulletSpeed: 10
-  reflectBulletSpeed: 10
-  despawnTime: 10
+  bulletSpeed: 20
+  reflectBulletSpeed: 20
+  despawnTime: 20
   reflectiveTag: Reflective
   breakTag: breakTag
   dooropenTag: dooropenTag
