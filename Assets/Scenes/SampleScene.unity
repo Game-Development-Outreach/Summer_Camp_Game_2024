@@ -175,6 +175,11 @@ Camera:
   m_CorrespondingSourceObject: {fileID: 2896441125889681387, guid: dd8eba3f98cea3548adbba4d4c5211c1, type: 3}
   m_PrefabInstance: {fileID: 4586532819045091833}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &688464144 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6896560688823058852, guid: b22edefd2538f4243b8230a56af25649, type: 3}
+  m_PrefabInstance: {fileID: 8291439505493800440}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &752371229
 GameObject:
   m_ObjectHideFlags: 0
@@ -6228,7 +6233,7 @@ GameObject:
   - component: {fileID: 1196108904}
   m_Layer: 6
   m_Name: TilemapBreak
-  m_TagString: breakTag
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6605,6 +6610,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 650473938045617294, guid: 5b0ad7409dc0b334380b162248652a23, type: 3}
+      propertyPath: onRespawned.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 650473938045617294, guid: 5b0ad7409dc0b334380b162248652a23, type: 3}
       propertyPath: onGameStart.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 511197216}
@@ -6619,7 +6628,7 @@ PrefabInstance:
     - target: {fileID: 650473938045617294, guid: 5b0ad7409dc0b334380b162248652a23, type: 3}
       propertyPath: onRespawned.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 11500000, guid: b475224504b11b2418510f22d17614c5, type: 3}
+      objectReference: {fileID: 889095125}
     - target: {fileID: 650473938045617294, guid: 5b0ad7409dc0b334380b162248652a23, type: 3}
       propertyPath: onGameStart.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
@@ -6633,13 +6642,17 @@ PrefabInstance:
       value: Spawn
       objectReference: {fileID: 0}
     - target: {fileID: 650473938045617294, guid: 5b0ad7409dc0b334380b162248652a23, type: 3}
+      propertyPath: onRespawned.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Respawn
+      objectReference: {fileID: 0}
+    - target: {fileID: 650473938045617294, guid: 5b0ad7409dc0b334380b162248652a23, type: 3}
       propertyPath: onCheckpointReachedGM.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 650473938045617294, guid: 5b0ad7409dc0b334380b162248652a23, type: 3}
       propertyPath: onCheckpointReachedGM.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 11500000, guid: 8281881446e32eb418ded64e3d8ea715, type: 3}
+      objectReference: {fileID: 688464144}
     - target: {fileID: 650473938045617294, guid: 5b0ad7409dc0b334380b162248652a23, type: 3}
       propertyPath: onCheckpointReachedGM.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 1
@@ -6653,11 +6666,19 @@ PrefabInstance:
       value: SpawnBadeline, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 650473938045617294, guid: 5b0ad7409dc0b334380b162248652a23, type: 3}
+      propertyPath: onRespawned.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 650473938045617294, guid: 5b0ad7409dc0b334380b162248652a23, type: 3}
       propertyPath: onCheckpointReachedGM.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 650473938045617294, guid: 5b0ad7409dc0b334380b162248652a23, type: 3}
       propertyPath: onGameStart.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 650473938045617294, guid: 5b0ad7409dc0b334380b162248652a23, type: 3}
+      propertyPath: onRespawned.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 650473938045617294, guid: 5b0ad7409dc0b334380b162248652a23, type: 3}
@@ -6792,7 +6813,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 477245401614867238, guid: bf61e6ff677a7f94ea630484daa84df9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.71
+      value: -2.25
       objectReference: {fileID: 0}
     - target: {fileID: 477245401614867238, guid: bf61e6ff677a7f94ea630484daa84df9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6834,6 +6855,10 @@ PrefabInstance:
       propertyPath: objectToDisable
       value: 
       objectReference: {fileID: 1196108902}
+    - target: {fileID: 5746851955568517586, guid: bf61e6ff677a7f94ea630484daa84df9, type: 3}
+      propertyPath: specificDisabler
+      value: 
+      objectReference: {fileID: 1516212607111309042}
     - target: {fileID: 5848665327747977133, guid: bf61e6ff677a7f94ea630484daa84df9, type: 3}
       propertyPath: m_Name
       value: DoorOpen
@@ -6843,6 +6868,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf61e6ff677a7f94ea630484daa84df9, type: 3}
+--- !u!1 &1516212607111309042 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5848665327747977133, guid: bf61e6ff677a7f94ea630484daa84df9, type: 3}
+  m_PrefabInstance: {fileID: 1516212607111309041}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4586532819045091833
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7067,7 +7097,7 @@ PrefabInstance:
       objectReference: {fileID: 158040468}
     - target: {fileID: 6210546572823794424, guid: b22edefd2538f4243b8230a56af25649, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.03
+      value: 9.93
       objectReference: {fileID: 0}
     - target: {fileID: 6210546572823794424, guid: b22edefd2538f4243b8230a56af25649, type: 3}
       propertyPath: m_LocalPosition.y
