@@ -6495,51 +6495,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1486462853
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1486462854}
-  - component: {fileID: 1486462855}
-  m_Layer: 0
-  m_Name: BadelineSpawn
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1486462854
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1486462853}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.9, y: 1.62, z: -0.06533596}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1486462855
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1486462853}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e145d06e4a8b124e9e9a7f310957a1c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPosition: {fileID: 1486462854}
 --- !u!1 &1737422333
 GameObject:
   m_ObjectHideFlags: 0
@@ -6620,7 +6575,7 @@ PrefabInstance:
     - target: {fileID: 650473938045617294, guid: 5b0ad7409dc0b334380b162248652a23, type: 3}
       propertyPath: onGameStart.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1486462855}
+      objectReference: {fileID: 0}
     - target: {fileID: 650473938045617294, guid: 5b0ad7409dc0b334380b162248652a23, type: 3}
       propertyPath: onGameStart.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
@@ -7158,7 +7113,6 @@ SceneRoots:
   - {fileID: 8291439505493800440}
   - {fileID: 4905182140010511830}
   - {fileID: 752371230}
-  - {fileID: 1486462854}
   - {fileID: 1516212607111309041}
   - {fileID: 1032986312}
   - {fileID: 889655734}
