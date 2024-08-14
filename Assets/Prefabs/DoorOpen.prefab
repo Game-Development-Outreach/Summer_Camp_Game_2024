@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 477245401614867238}
   - component: {fileID: 958918837758363449}
-  - component: {fileID: 5746851955568517586}
   - component: {fileID: 4018048515739389272}
   - component: {fileID: 7943717738240382997}
   m_Layer: 0
@@ -87,20 +86,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5746851955568517586
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5848665327747977133}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b04f79a07819bfb4092ecb137dec888a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectToDisable: {fileID: 0}
-  ProjectileTag: {fileID: 2529368811345681296, guid: 30d25cfec739d974b8ca3713f3eface7, type: 3}
 --- !u!60 &4018048515739389272
 PolygonCollider2D:
   m_ObjectHideFlags: 0
